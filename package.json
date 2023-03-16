@@ -1,0 +1,12 @@
+{
+    "name": "My WebServer",
+    "version": "1.0.0",
+    "description": "Webserver",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server.js"
+    },
+    "author": "MK",
+    "license": "UNLICENSED"
+  }
