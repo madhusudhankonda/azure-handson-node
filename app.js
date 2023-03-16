@@ -4,6 +4,7 @@ const handleRequest = (request, response) => {
   response.end(`Hello, Azure World`)
 }
 const server = Http.createServer(handleRequest)
+
 server.listen(port, () => {
   console.log(`Http server listening on http://localhost:${port}`)
 })
