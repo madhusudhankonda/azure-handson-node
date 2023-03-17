@@ -1,7 +1,7 @@
 const Http = require('http')
 const port = process.env.port || 8080
 const handleRequest = (request, response) => {
-  response.end(`Hello, Azure World!! How are you all!! Enjoy`)
+  response.end(`Hello, Azure World!! How are you all!!`)
 }
 const server = Http.createServer(handleRequest)
 
